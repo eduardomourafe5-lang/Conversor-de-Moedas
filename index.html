@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+
+
+
+    <title>Conversão de Moedas</title>
+</head>
+
+
+
+<body>
+
+
+    <img class="logo" src="./assets/Moedas Douradas.png" alt="Logo do site">
+
+    <main>
+
+        <label>
+            Converter <b>de:</b>
+
+            <select>
+
+                <option> R$ Real Brasileiro</option>
+
+
+            </select>
+
+
+
+        </label>
+
+
+        <label>
+            Converter <b>para:</b>
+
+            <select class="select-to-convert">
+
+                <option value="dolar">US$ Dólar Americano</option>
+                <option value="euro">€ Euro</option>
+
+            </select>
+
+
+
+        </label>
+        <label>
+            Valor:
+
+            <input class="input-currency" placeholder="R$ 0,00">
+        </label>
+
+        <button class="convert-button">CONVERTER</button>
+
+        <section>
+            <div Class="resultado">
+                <img src="./assets/brasil.png" alt="Bandeira do Brasil">
+                <p class="dinheiro">Real</p>
+                <p class="dinheiro2-to-convert">R$ 0,00</p>
+
+
+            </div>
+
+            <img class="arrow" src="./assets/seta.png" alt="Seta de conversão">
+
+
+            <div class="resultado">
+                <img class="dolarimg" src="./assets/dolar.png" alt="Bandeira americana">
+                <p class="dinheiro" id="currency-dolar">Dólar Americano</p>
+                <p class="dinheiro2">US$ 0,00</p>
+
+
+            </div>
+
+        </section>
+
+
+
+    </main>
+
+    <script src="./scripts.js"> </script>
+
+</body>
+
+</html>
